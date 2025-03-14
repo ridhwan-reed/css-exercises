@@ -1,0 +1,22 @@
+.everything  {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#idone {
+    color: blue;
+    font-size: 36px;
+}
+
+/* specfically font size for element three
+can also be done by add multiple classes instead */
+
+.everything:nth-child(3) {
+    font-size: 24px;
+}
+
+#idtwo {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
